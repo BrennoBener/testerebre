@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios e Quiz</teste>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafios e Quiz</h1>
+        <div id="challengeSection">
+            <button id="generateChallengeBtn">Gerar Desafio</button>
+            <p id="challengeDisplay">Clique no botão para gerar um desafio!</p>
+        </div>
+        <div id="quizSection">
+            <button id="startQuizBtn">Começar Quiz</button>
+            <div id="quiz" style="display:none;">
+                <p id="question"></p>
+                <div id="options"></div>
+                <p id="feedback"></p>
+                <button id="nextQuestionBtn" style="display:none;">Próxima Pergunta</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
