@@ -53,7 +53,7 @@ const perguntas = [
     },
     {
         pergunta: "Qual o verdadeiro nome do Charles?",
-        opcoes: ["Kakashi - O Proprio", "Kakashi - O Gostoso", "Kakashi Delas", "Kakashi da Caravana"],
+        opcoes: ["Kakashi - O Proprio", "Kakashi - O Gostoso", "Kakashi O Sábio", "Kakashi da Caravana"],
         resposta: "Kakashi da Caravana"
     },
     {
